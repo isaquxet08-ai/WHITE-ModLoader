@@ -9,7 +9,6 @@ OutputBaseFilename=WHITE_ModLauncher_Setup
 Compression=lzma
 SolidCompression=yes
 WizardStyle=modern
-DefaultFont=Microsoft YaHei
 
 [Tasks]
 Name: "desktopicon"; Description: "Create a Desktop Shortcut"; GroupDescription: "Additional Icons"; Flags: unchecked
