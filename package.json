@@ -1,0 +1,1 @@
+{ "name": "white-mod-launcher", "version": "1.0.0", "main": "launcher.js", "bin": "launcher.js", "scripts": { "build": "pkg . --targets node18-win-x64 --output dist/WHITE_ModLauncher.exe" }, "devDependencies": { "pkg": "^5.8.1" } }
