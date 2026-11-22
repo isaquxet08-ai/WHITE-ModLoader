@@ -11,5 +11,5 @@ jobs:
       - run: npm run build
       - run: choco install innosetup -y
       - run: iscc setup.iss
-      - uses: actions/upload-artifact@v3
+      - uses: actions/upload-artifact@v4
         with: { name: WHITE-Setup-Windows, path: dist/WHITE_ModLauncher_Setup.exe }

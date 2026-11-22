@@ -22,5 +22,5 @@ jobs:
           keytool -genkey -v -keystore key.keystore -alias a -keyalg RSA -keysize 2048 -validity 10000 -storepass 123456 -keypass 123456 -dname "CN=Mod" 2>/dev/null
           zipalign -v 4 raw.apk aligned.apk
           apksigner sign --ks key.keystore --ks-pass pass:123456 --out WHITE_Modded.apk aligned.apk
-      - uses: actions/upload-artifact@v3
+      - uses: actions/upload-artifact@v4
         with: { name: WHITE-Android-APK, path: WHITE_Modded.apk }
