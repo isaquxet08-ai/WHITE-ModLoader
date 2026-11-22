@@ -1,6 +1,6 @@
 [Setup]
 AppName=WHITE Mod Launcher
-AppVersion=1.0.0
+AppVersion=1.0.6
 DefaultDirName={autopf}\WHITE_Mod
 DisableProgramGroupPage=yes
 LicenseFile=EULA.txt
